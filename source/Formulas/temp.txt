@@ -1,0 +1,787 @@
+﻿
+=ЕСЛИ(Январь[@Услуга]="";Если(СМЕЩ(Январь[@Услуга];-1;0)="";ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Январь[@Услуга];-2;0);Услуги[Кратко];0);3);ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Январь[@Услуга];-1;0);Услуги[Кратко];0);3));ИНДЕКС(Услуги;ПОИСКПОЗ(Январь[@Услуга];Услуги[Кратко];0);3))
+
+=ЕСЛИ(Февраль[@Услуга]="";Если(СМЕЩ(Февраль[@Услуга];-1;0)="";ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Февраль[@Услуга];-2;0);Услуги[Кратко];0);3);ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Февраль[@Услуга];-1;0);Услуги[Кратко];0);3));ИНДЕКС(Услуги;ПОИСКПОЗ(Февраль[@Услуга];Услуги[Кратко];0);3))
+
+=ЕСЛИ(Февраль[@Услуга]="";Если(СМЕЩ(Февраль[@Услуга];-1;0)="";ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Февраль[@Услуга];-2;0);Услуги[Кратко];0);3);ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Февраль[@Услуга];-1;0);Услуги[Кратко];0);3));ИНДЕКС(Услуги;ПОИСКПОЗ(Февраль[@Услуга];Услуги[Кратко];0);3))
+
+=ЕСЛИ(Март[@Услуга]="";Если(СМЕЩ(Март[@Услуга];-1;0)="";ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Март[@Услуга];-2;0);Услуги[Кратко];0);3);ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Март[@Услуга];-1;0);Услуги[Кратко];0);3));ИНДЕКС(Услуги;ПОИСКПОЗ(Март[@Услуга];Услуги[Кратко];0);3))
+
+=ЕСЛИ(Апрель[@Услуга]="";Если(СМЕЩ(Апрель[@Услуга];-1;0)="";ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Апрель[@Услуга];-2;0);Услуги[Кратко];0);3);ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Апрель[@Услуга];-1;0);Услуги[Кратко];0);3));ИНДЕКС(Услуги;ПОИСКПОЗ(Апрель[@Услуга];Услуги[Кратко];0);3))
+
+=ЕСЛИ(Май[@Услуга]="";Если(СМЕЩ(Май[@Услуга];-1;0)="";ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Май[@Услуга];-2;0);Услуги[Кратко];0);3);ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Май[@Услуга];-1;0);Услуги[Кратко];0);3));ИНДЕКС(Услуги;ПОИСКПОЗ(Май[@Услуга];Услуги[Кратко];0);3))
+
+=ЕСЛИ(Июнь[@Услуга]="";Если(СМЕЩ(Июнь[@Услуга];-1;0)="";ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Июнь[@Услуга];-2;0);Услуги[Кратко];0);3);ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Июнь[@Услуга];-1;0);Услуги[Кратко];0);3));ИНДЕКС(Услуги;ПОИСКПОЗ(Июнь[@Услуга];Услуги[Кратко];0);3))
+
+=ЕСЛИ(Июль[@Услуга]="";Если(СМЕЩ(Июль[@Услуга];-1;0)="";ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Июль[@Услуга];-2;0);Услуги[Кратко];0);3);ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Июль[@Услуга];-1;0);Услуги[Кратко];0);3));ИНДЕКС(Услуги;ПОИСКПОЗ(Июль[@Услуга];Услуги[Кратко];0);3))
+
+=ЕСЛИ(Август[@Услуга]="";Если(СМЕЩ(Август[@Услуга];-1;0)="";ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Август[@Услуга];-2;0);Услуги[Кратко];0);3);ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Август[@Услуга];-1;0);Услуги[Кратко];0);3));ИНДЕКС(Услуги;ПОИСКПОЗ(Август[@Услуга];Услуги[Кратко];0);3))
+
+=ЕСЛИ(Сентябрь[@Услуга]="";Если(СМЕЩ(Сентябрь[@Услуга];-1;0)="";ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Сентябрь[@Услуга];-2;0);Услуги[Кратко];0);3);ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Сентябрь[@Услуга];-1;0);Услуги[Кратко];0);3));ИНДЕКС(Услуги;ПОИСКПОЗ(Сентябрь[@Услуга];Услуги[Кратко];0);3))
+
+=ЕСЛИ(Октябрь[@Услуга]="";Если(СМЕЩ(Октябрь[@Услуга];-1;0)="";ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Октябрь[@Услуга];-2;0);Услуги[Кратко];0);3);ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Октябрь[@Услуга];-1;0);Услуги[Кратко];0);3));ИНДЕКС(Услуги;ПОИСКПОЗ(Октябрь[@Услуга];Услуги[Кратко];0);3))
+
+=ЕСЛИ(Ноябрь[@Услуга]="";Если(СМЕЩ(Ноябрь[@Услуга];-1;0)="";ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Ноябрь[@Услуга];-2;0);Услуги[Кратко];0);3);ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Ноябрь[@Услуга];-1;0);Услуги[Кратко];0);3));ИНДЕКС(Услуги;ПОИСКПОЗ(Ноябрь[@Услуга];Услуги[Кратко];0);3))
+
+=ЕСЛИ(Декабрь[@Услуга]="";Если(СМЕЩ(Декабрь[@Услуга];-1;0)="";ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Декабрь[@Услуга];-2;0);Услуги[Кратко];0);3);ИНДЕКС(Услуги;ПОИСКПОЗ(СМЕЩ(Декабрь[@Услуга];-1;0);Услуги[Кратко];0);3));ИНДЕКС(Услуги;ПОИСКПОЗ(Декабрь[@Услуга];Услуги[Кратко];0);3))
+
+
+
+
+
+
+=ДВССЫЛ("Услуги[Кратко]")
+
+
+=ЕСЛИ(СМЕЩ([@№];1;)=2;ЕСЛИ(СМЕЩ([@№];2;)=3;СУММ(Январь[@[1]:[31]])+СУММ(СМЕЩ(Январь[@[1]:[31]];1;))+СУММ(СМЕЩ(Январь[@[1]:[31]];2;));СУММ(Январь[@[1]:[31]])+СУММ(СМЕЩ(Январь[@[1]:[31]];1;)));ЕСЛИ(СМЕЩ([@№];2;)=3;СУММ(Январь[@[1]:[31]])+СУММ(СМЕЩ(Январь[@[1]:[31]];2;));""))
+
+=ЕСЛИ([@УСЛУГ]<>"";[@УСЛУГ]*[@Периодичность];"")
+
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customUI onLoad="RibbonOnLoad" xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+	<ribbon startFromScratch="false">
+		<tabs>
+			<tab id="ServicesID" label="Управление" getVisible="GetVisible" tag="Services">
+				<group id="BaseID" label="Перемещения по страницам" getVisible="GetterVisible" tag="Base">
+					<button id="MainID" label="Домой" image="Main" size="large" onAction="MainClick"/>
+					<menu id="SelectListID" label="Выбрать страницу" image="select-list" size="large">
+						<button id="onMainID" label="Домой" image="Main" onAction="MainClick"/>
+						<menu id="MonthID" label="Месяцы" image="btn-month">
+							<button id="onJanID" label="Январь Месяц" image="btn-list" onAction="JanuaryClick"/>
+							<button id="onFebID" label="Февраль Месяц" image="btn-list" onAction="FebruaryClick"/>
+							<button id="onMarID" label="Март Месяц" image="btn-list" onAction="MarchClick"/>
+							<button id="onAprID" label="Апрель Месяц" image="btn-list" onAction="AprilClick"/>
+							<button id="onMayID" label="Май Месяц" image="btn-list" onAction="MayClick"/>
+							<button id="onJuneID" label="Июнь Месяц" image="btn-list" onAction="JuneClick"/>
+							<button id="onJulyID" label="Июль Месяц" image="btn-list" onAction="JulyClick"/>
+							<button id="onAugID" label="Август Месяц" image="btn-list" onAction="AugustClick"/>
+							<button id="onSeptID" label="Сентябрь Месяц" image="btn-list" onAction="SeptemberClick"/>
+							<button id="onOctID" label="Октябрь Месяц" image="btn-list" onAction="OctoberClick"/>
+							<button id="onNovID" label="Ноябрь Месяц" image="btn-list" onAction="NovemberClick"/>
+							<button id="onDecID" label="Декабрь Месяц" image="btn-list" onAction="DecemberClick"/>
+						</menu>
+						<menu id="GraphID" label="Графики" image="graph-icon">
+							<button id="onGraphJanID" label="Январь График" image="btn-list" onAction="JanuaryGraph"/>
+							<button id="onGraphFebID" label="Февраль График" image="btn-list" onAction="FebruaryGraph"/>
+							<button id="onGraphMarID" label="Март График" image="btn-list" onAction="MarchGraph"/>
+							<button id="onGraphAprID" label="Апрель График" image="btn-list" onAction="AprilGraph"/>
+							<button id="onGraphMayID" label="Май График" image="btn-list" onAction="MayGraph"/>
+							<button id="onGraphJuneID" label="Июнь График" image="btn-list" onAction="JuneGraph"/>
+							<button id="onGraphJulyID" label="Июль График" image="btn-list" onAction="JulyGraph"/>
+							<button id="onGraphAugID" label="Август График" image="btn-list" onAction="AugustGraph"/>
+							<button id="onGraphSeptID" label="Сентябрь График" image="btn-list" onAction="SeptemberGraph"/>
+							<button id="onGraphOctID" label="Октябрь График" image="btn-list" onAction="OctoberGraph"/>
+							<button id="onGraphNovID" label="Ноябрь График" image="btn-list" onAction="NovemberGraph"/>
+							<button id="onGraphDecID" label="Декабрь График" image="btn-list" onAction="DecemberGraph"/>
+						</menu>
+					</menu>
+					<button id="PrevID" label="Предыдущая" image="btn-prev" size="large" onAction="PrevClick"/>
+					<button id="NextID" label="Следующая" image="btn-next" size="large" onAction="NextClick"/>
+				</group>
+				<group id="ConfigID" label="Параметры" getVisible="GetterVisible" tag="BaseConfig">
+					<menu id="ParamID" label="Настройки" image="btn-config" size="large">
+						<button id="TableConfigID" label="Настройки таблиц" image="config-icon" onAction="TableConfigClick" />
+						<button id="ListSocialID" label="Настройка список услуг" image="services" onAction="ListSocialClick" />
+					</menu>
+				</group>
+				<group id="MonthsID" label="Перемещения по страницам" getVisible="GetterVisible" tag="Month">
+					<button id="MonthMainID" label="Домой" image="Main" size="large" onAction="MainClick"/>
+					<menu id="MonthSelectListID" label="Выбрать страницу" image="select-list" size="large">
+						<button id="MonthOnMainID" label="Домой" image="Main" onAction="MainClick"/>
+						<menu id="MonthMonthID" label="Месяцы" image="btn-month">
+							<button id="MonthOnJanID" label="Январь Месяц" image="btn-list" onAction="JanuaryClick"/>
+							<button id="MonthOnFebID" label="Февраль Месяц" image="btn-list" onAction="FebruaryClick"/>
+							<button id="MonthOnMarID" label="Март Месяц" image="btn-list" onAction="MarchClick"/>
+							<button id="MonthOnAprID" label="Апрель Месяц" image="btn-list" onAction="AprilClick"/>
+							<button id="MonthOnMayID" label="Май Месяц" image="btn-list" onAction="MayClick"/>
+							<button id="MonthOnJuneID" label="Июнь Месяц" image="btn-list" onAction="JuneClick"/>
+							<button id="MonthOnJulyID" label="Июль Месяц" image="btn-list" onAction="JulyClick"/>
+							<button id="MonthOnAugID" label="Август Месяц" image="btn-list" onAction="AugustClick"/>
+							<button id="MonthOnSeptID" label="Сентябрь Месяц" image="btn-list" onAction="SeptemberClick"/>
+							<button id="MonthOnOctID" label="Октябрь Месяц" image="btn-list" onAction="OctoberClick"/>
+							<button id="MonthOnNovID" label="Ноябрь Месяц" image="btn-list" onAction="NovemberClick"/>
+							<button id="MonthOnDecID" label="Декабрь Месяц" image="btn-list" onAction="DecemberClick"/>
+						</menu>
+						<menu id="MonthGraphID" label="Графики" image="graph-icon">
+							<button id="MonthOnGraphJanID" label="Январь График" image="btn-list" onAction="JanuaryGraph"/>
+							<button id="MonthOnGraphFebID" label="Февраль График" image="btn-list" onAction="FebruaryGraph"/>
+							<button id="MonthOnGraphMarID" label="Март График" image="btn-list" onAction="MarchGraph"/>
+							<button id="MonthOnGraphAprID" label="Апрель График" image="btn-list" onAction="AprilGraph"/>
+							<button id="MonthOnGraphMayID" label="Май График" image="btn-list" onAction="MayGraph"/>
+							<button id="MonthOnGraphJuneID" label="Июнь График" image="btn-list" onAction="JuneGraph"/>
+							<button id="MonthOnGraphJulyID" label="Июль График" image="btn-list" onAction="JulyGraph"/>
+							<button id="MonthOnGraphAugID" label="Август График" image="btn-list" onAction="AugustGraph"/>
+							<button id="MonthOnGraphSeptID" label="Сентябрь График" image="btn-list" onAction="SeptemberGraph"/>
+							<button id="MonthOnGraphOctID" label="Октябрь График" image="btn-list" onAction="OctoberGraph"/>
+							<button id="MonthOnGraphNovID" label="Ноябрь График" image="btn-list" onAction="NovemberGraph"/>
+							<button id="MonthOnGraphDecID" label="Декабрь График" image="btn-list" onAction="DecemberGraph"/>
+						</menu>
+					</menu>
+					<button id="MonthDownID" label="Вниз" image="btn-down" size="large" onAction="DownClick" />
+					<button id="MonthUpID" label="Вверх" image="btn-up" size="large" onAction="UpClick" />
+					<button id="MonthPrevID" label="Предыдущая" image="btn-prev" size="large" onAction="PrevClick"/>
+					<button id="MonthNextID" label="Следующая" image="btn-next" size="large" onAction="NextClick"/>
+				</group>
+				<group id="MonthConfigID" label="Параметры" getVisible="GetterVisible" tag="MonthConfig">
+					<menu id="MonthParamID" label="Настройки" image="btn-config" size="large">
+						<button id="MonthTableConfigID" label="Настройки таблиц" image="config-icon" onAction="TableConfigClick" />
+						<button id="MonthListSocialID" label="Настройка список услуг" image="services" onAction="ListSocialClick" />
+					</menu>
+				</group>
+			</tab>
+			<tab id="EditorID" label="Изменения" getVisible="GetVisible" tag="Editor">
+				<group id="EditionID" label="Редактирование списка" getVisible="GetterVisible" tag="EditionList">
+					<dropDown id="DroDownID" label="Выбор услуги" imageMso="SelectRow" getItemCount="getItemCount" getItemImage="getItemImage" getItemLabel="getItemLabel" onAction="dropDownClick" />
+					<button id="AddID" label="Добавить услугу" image="btn-expand" size="large" onAction="AddClick" />
+					<separator id="sepEditID" />
+					<button id="DelID" label="Удалить выделенную" image="btn-collapse" size="large" onAction="DellClick" />
+				</group>
+				<group id="EditionFineID" label="Завершение"  getVisible="GetterVisible" tag="EditionFine" >
+					<button id="OkID" label="Применить список" image="btn-ok" size="large" onAction="UsesClick" />
+					<button id="FinishID" label="Завершить редиктирование" image="btn-exit" size="large" onAction="FinishClick" />
+				</group>
+				<group id="EndID" label="Завершение" getVisible="GetterVisible" tag="End">
+					<button id="EndFinishID" label="Завершить редиктирование" image="btn-exit" size="large" onAction="FinishClick" />
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
+
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" standalone="yes"?>
+<customUI onLoad="RibbonOnLoad" xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+	<ribbon startFromScratch="false">
+		<tabs>
+			<tab id="SocialServices" label="Управление услугами" getVisible="GetVisible" tag="XSocSer">
+				<group id="TransitionsID" label="Перемещения по страницам" getVisible="GetterVisible" tag="GTran">
+					<button id="MainID" label="Домой" image="Main" size="large" onAction="MainClick"/>
+					<menu id="SelectListID" label="Выбрать страницу" image="select-list" size="large">
+						<button id="onMainID" label="Домой" image="Main" onAction="MainClick"/>
+						<button id="onJanID" label="Январь" image="btn-list" onAction="JanuaryClick"/>
+						<button id="onFebID" label="Февраль" image="btn-list" onAction="FebruaryClick"/>
+						<button id="onMarID" label="Март" image="btn-list" onAction="MarchClick"/>
+						<button id="onAprID" label="Апрель" image="btn-list" onAction="AprilClick"/>
+						<button id="onMayID" label="Май" image="btn-list" onAction="MayClick"/>
+						<button id="onJuneID" label="Июнь" image="btn-list" onAction="JuneClick"/>
+						<button id="onJulyID" label="Июль" image="btn-list" onAction="JulyClick"/>
+						<button id="onAugID" label="Август" image="btn-list" onAction="AugustClick"/>
+						<button id="onSeptID" label="Сентябрь" image="btn-list" onAction="SeptemberClick"/>
+						<button id="onOctID" label="Октябрь" image="btn-list" onAction="OctoberClick"/>
+						<button id="onNovID" label="Ноябрь" image="btn-list" onAction="NovemberClick"/>
+						<button id="onDecID" label="Декабрь" image="btn-list" onAction="DecemberClick"/>
+					</menu>
+					<button id="PreviousID" label="Предыдущая" image="btn-prev" size="large" onAction="ClickPrevious"/>
+					<button id="IDNext" label="Следующая" image="btn-next" size="large" onAction="NextClick"/>
+				</group>
+				<group id="SocialParametersID" label="Параметры" getVisible="GetterVisible" tag="GTranParameters">
+					<menu id="GMenuParametersID" label="Настройки таблиц" image="config-icon" size="large">
+						<button id="EditServices" label="Добавить услугу" image="services" onAction="EditServicesClick"/>
+						<button id="EditWorker" label="Редактировать соц. работников" image="worker" onAction="EditWorkerClick"/>
+						<button id="EditAccounting" label="Изменить постановку на учет" image="accounting-btn" onAction="EditAccountingClick"/>
+						<button id="EditMonths" label="Изменить периоды" image="btn-month" onAction="EditMonthsClick"/>
+					</menu>
+				</group>
+				<group id="Transitions" label="Перемещения по страницам" getVisible="GetterVisible" tag="XTran">
+					<button id="Main" label="Домой" image="Main" size="large" onAction="MainClick"/>
+					<menu id="SelectList" label="Выбрать страницу" image="select-list" size="large">
+						<button id="onMain" label="Домой" image="Main" onAction="MainClick"/>
+						<button id="onJan" label="Январь" image="btn-list" onAction="JanuaryClick"/>
+						<button id="onFeb" label="Февраль" image="btn-list" onAction="FebruaryClick"/>
+						<button id="onMar" label="Март" image="btn-list" onAction="MarchClick"/>
+						<button id="onApr" label="Апрель" image="btn-list" onAction="AprilClick"/>
+						<button id="onMay" label="Май" image="btn-list" onAction="MayClick"/>
+						<button id="onJune" label="Июнь" image="btn-list" onAction="JuneClick"/>
+						<button id="onJuly" label="Июль" image="btn-list" onAction="JulyClick"/>
+						<button id="onAug" label="Август" image="btn-list" onAction="AugustClick"/>
+						<button id="onSept" label="Сентябрь" image="btn-list" onAction="SeptemberClick"/>
+						<button id="onOct" label="Октябрь" image="btn-list" onAction="OctoberClick"/>
+						<button id="onNov" label="Ноябрь" image="btn-list" onAction="NovemberClick"/>
+						<button id="onDec" label="Декабрь" image="btn-list" onAction="DecemberClick"/>
+					</menu>
+					<button id="BtnUpID" label="Вверх" image="btn-up" size="large" onAction="UpClick"/>
+					<button id="BtnDownID" label="Вниз" image="btn-down" size="large" onAction="DownClick"/>
+					<button id="IdPrevious" label="Предыдущая" image="btn-prev" size="large" onAction="ClickPrevious"/>
+					<button id="NextID" label="Следующая" image="btn-next" size="large" onAction="NextClick"/>
+				</group>
+				<group id="XMoneyID" label="Деньги" getVisible="GetterVisible" tag="XMoney">
+					<button id="XRubleID" label="Закрасить" image="Color" size="large" onAction="RubleClick" />
+					<button id="XNoRubleID" label="Обесцветить" image="NoColor" size="large" onAction="NoRubleClick" />
+				</group>
+				<group id="SocialEdit" label="Редактирование" getVisible="GetterVisible" tag="XEdit">
+					<menu id="XAddEditID" label="Добавить" imageMso="PictureBackgroundRemovalMarkForeground" size="large">
+						<button id="AddRowsID" label="Добавить строку" image="add-rows" onAction="AddRowsClick"/>
+						<button id="AddColumnID" label="Добавить столбец" image="add-columns" onAction="AddColumnClick"/>
+						<button id="CreateNameID" label="Придумать имя" imageMso="PencilTool" onAction="CreateNameClick"/>
+					</menu>
+					<button id="XCalcUpdateID" label="Обновить вычисления" image="btn-update" size="large" onAction="CalcUpdateClick" />
+					<button id="XBtnFitSizesID" label="Подогнать размеры" image="btn-resize" size="large" onAction="BtnFitSizesClick"/>
+					<menu id="XRemoveEditID" label="Удалить" imageMso="PictureBackgroundRemovalMarkBackground" size="large">
+						<button id="DeleteDoubleID" label="Удалить дубликаты" image="clear-double" onAction="DeleteDoubleClick"/>
+						<button id="DeleteErrorID" label="Удалить ошибки" image="clear-errors" onAction="RemoveErrorsClick"/>
+					</menu>
+					<menu id="XClearEditID" label="Очистить" imageMso="ClearAll" size="large">
+						<button id="SelectRowsID" label="Очистить строку" image="reset-rows" onAction="SelectRowsClick"/>
+						<button id="SelectColumnID" label="Очистить столбец" image="reset-columns" onAction="SelectColumnClick"/>
+						<button id="AllZeroID" label="Очистить всё" image="reset-btn" onAction="ClearAllClick"/>
+					</menu>
+				</group>
+				<group id="SocialParameters" label="Параметры" getVisible="GetterVisible" tag="XTranParameters">
+					<menu id="MyXMenuParametersID" label="Настройки таблиц" image="config-icon" size="large">
+						<button id="EditServicesID" label="Добавить услугу" image="services" onAction="EditServicesClick"/>
+						<button id="EditWorkerID" label="Редактировать соц. работников" image="worker" onAction="EditWorkerClick"/>
+						<button id="EditAccountingID" label="Изменить постановку на учет" image="accounting-btn" onAction="EditAccountingClick"/>
+						<button id="EditMonthsID" label="Изменить периоды" image="btn-month" onAction="EditMonthsClick"/>
+					</menu>
+				</group>
+				<group id="MyTransitions" label="Перемещения по страницам" getVisible="GetterVisible" tag="MyTran">
+					<button id="IDMain" label="Домой" image="Main" size="large" onAction="MainClick"/>
+					<menu id="IDSelectList" label="Выбрать страницу" image="select-list" size="large">
+						<button id="inMain" label="Домой" image="Main" onAction="MainClick"/>
+						<button id="inJan" label="Январь" image="btn-list" onAction="JanuaryClick"/>
+						<button id="inFeb" label="Февраль" image="btn-list" onAction="FebruaryClick"/>
+						<button id="inMar" label="Март" image="btn-list" onAction="MarchClick"/>
+						<button id="inApr" label="Апрель" image="btn-list" onAction="AprilClick"/>
+						<button id="inMay" label="Май" image="btn-list" onAction="MayClick"/>
+						<button id="inJune" label="Июнь" image="btn-list" onAction="JuneClick"/>
+						<button id="inJuly" label="Июль" image="btn-list" onAction="JulyClick"/>
+						<button id="inAug" label="Август" image="btn-list" onAction="AugustClick"/>
+						<button id="inSept" label="Сентябрь" image="btn-list" onAction="SeptemberClick"/>
+						<button id="inOct" label="Октябрь" image="btn-list" onAction="OctoberClick"/>
+						<button id="inNov" label="Ноябрь" image="btn-list" onAction="NovemberClick"/>
+						<button id="inDec" label="Декабрь" image="btn-list" onAction="DecemberClick"/>
+					</menu>
+					<button id="MyBtnUpID" label="Вверх" image="btn-up" size="large" onAction="UpClick"/>
+					<button id="MyBtnDownID" label="Вниз" image="btn-down" size="large" onAction="DownClick"/>
+					<button id="MyIdPrevious" label="Предыдущая" image="btn-prev" size="large" onAction="ClickPrevious"/>
+					<button id="MyNextID" label="Следующая" image="btn-next" size="large" onAction="NextClick"/>
+				</group>
+				<group id="MyMoneyID" label="Деньги" getVisible="GetterVisible" tag="MyMoney">
+					<button id="MyRubleID" label="Закрасить" image="Color" size="large" onAction="RubleClick" />
+					<button id="MyNoRubleID" label="Обесцветить" image="NoColor" size="large" onAction="NoRubleClick" />
+				</group>
+				<group id="MySocialEdit" label="Редактирование" getVisible="GetterVisible" tag="MyEdit">
+					<menu id="MyAddEditID" label="Добавить" imageMso="PictureBackgroundRemovalMarkForeground" size="large">
+						<button id="MyAddRowsID" label="Добавить строку" image="add-rows" onAction="AddRowsClick"/>
+						<button id="MyAddColumnID" label="Добавить столбец" image="add-columns" onAction="AddColumnClick"/>
+						<button id="MyCreateNameID" label="Придумать имя" imageMso="PencilTool" onAction="CreateNameClick"/>
+					</menu>
+					<button id="MyCalcUpdateID" label="Обновить вычисления" image="btn-update" size="large" onAction="CalcUpdateClick" />
+					<button id="MyBtnFitSizesID" label="Подогнать размеры" image="btn-resize" size="large" onAction="BtnFitSizesClick"/>
+					<button id="MyResetRowsID" label="Перенести строки" image="update-rows" size="large" onAction="ResetRowsClick" />
+					<button id="MyResetColumnID" label="Перенести столбцы" image="update-columns" size="large" onAction="ResetColumnClick" />
+					<menu id="MyRemoveEditID" label="Удалить" imageMso="PictureBackgroundRemovalMarkBackground" size="large">
+						<button id="MyDeleteDoubleID" label="Удалить дубликаты" image="clear-double" onAction="DeleteDoubleClick"/>
+						<button id="MyDeleteErrorID" label="Удалить ошибки" image="clear-errors" onAction="RemoveErrorsClick"/>
+					</menu>
+					<menu id="MyClearEditID" label="Очистить" imageMso="ClearAll" size="large">
+						<button id="MySelectRowsID" label="Очистить строку" image="reset-rows" onAction="SelectRowsClick"/>
+						<button id="MySelectColumnID" label="Очистить столбец" image="reset-columns" onAction="SelectColumnClick"/>
+						<button id="MyAllZeroID" label="Очистить всё" image="reset-btn" onAction="ClearAllClick"/>
+					</menu>
+				</group>
+				<group id="MySocialParameters" label="Параметры" getVisible="GetterVisible" tag="MyParameters">
+					<menu id="MyMenuParametersID" label="Настройки таблиц" image="config-icon" size="large">
+						<button id="MyEditServicesID" label="Добавить услугу" image="services" onAction="EditServicesClick"/>
+						<button id="MyEditWorkerID" label="Редактировать соц. работников" image="worker" onAction="EditWorkerClick"/>
+						<button id="MyEditAccountingID" label="Изменить постановку на учет" image="accounting-btn" onAction="EditAccountingClick"/>
+						<button id="MyEditMonthsID" label="Изменить периоды" image="btn-month" onAction="EditMonthsClick"/>
+					</menu>
+				</group>
+			</tab>
+			<tab id="SocialEditor" label="Изменения" getVisible="GetVisible" tag="MySocEd">
+				<group id="Editing" label="Редактирование списка" getVisible="GetterVisible" tag="XEditing">
+					<button id="FineID" label="Завершить редактирование" image="btn-ok" size="large" onAction="FineClick"/>
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
+
+
+
+
+
+
+Private Sub Workbook_SheetActivate(ByVal Sh As Object)
+    Select Case Sh.Name
+        Case "СписокУслуг"
+            Call RefreshRibbon(Tag:="MySocEd", TabID:="SocialEditor")
+            Call ReloadRibbon(Tag:="*")
+            gRibbonUI.ActivateTab "SocialEditor"
+        Case "СоцРаботники"
+            Call RefreshRibbon(Tag:="MySocEd", TabID:="SocialEditor")
+            Call ReloadRibbon(Tag:="*")
+            gRibbonUI.ActivateTab "SocialEditor"
+        Case "Месяцы"
+            Call RefreshRibbon(Tag:="MySocEd", TabID:="SocialEditor")
+            Call ReloadRibbon(Tag:="*")
+            gRibbonUI.ActivateTab "SocialEditor"
+        Case "СписокУчета"
+            Call RefreshRibbon(Tag:="MySocEd", TabID:="SocialEditor")
+            Call ReloadRibbon(Tag:="*")
+            gRibbonUI.ActivateTab "SocialEditor"
+        Case "Соответствия"
+            Call RefreshRibbon(Tag:="MySocEd", TabID:="SocialEditor")
+            Call ReloadRibbon(Tag:="*")
+            gRibbonUI.ActivateTab "SocialEditor"
+        Case "Главная"
+            Call RefreshRibbon(Tag:="XSocSer", TabID:="SocialServices")
+            Call ReloadRibbon(Tag:="GTran*")
+            gRibbonUI.ActivateTab "SocialServices"
+        Case "Январь"
+            Call RefreshRibbon(Tag:="XSocSer", TabID:="SocialServices")
+            Call ReloadRibbon(Tag:="X*")
+            gRibbonUI.ActivateTab "SocialServices"
+        Case Else
+            Call RefreshRibbon(Tag:="XSocSer", TabID:="SocialServices")
+            Call ReloadRibbon(Tag:="My*")
+            gRibbonUI.ActivateTab "SocialServices"
+    End Select
+End Sub
+
+
+
+
+
+Option Explicit
+
+Public gRibbonUI As IRibbonUI
+Dim Rib As IRibbonUI
+Dim MyTag As String
+Dim GroupTag As String
+
+'Callback for customUI.onLoad
+Sub RibbonOnLoad(ribbon As IRibbonUI)
+    Set Rib = ribbon
+    Set gRibbonUI = ribbon
+    Call RefreshRibbon(Tag:="XSocSer", TabID:="SocialServices")
+    Call ReloadRibbon(Tag:="GTran*")
+    Rib.ActivateTab "SocialServices"
+    Call EditMyFuncDesc
+End Sub
+
+Sub GetVisible(control As IRibbonControl, ByRef visible)
+    If control.Tag Like MyTag Then
+        visible = True
+    Else
+        visible = False
+    End If
+End Sub
+
+Sub RefreshRibbon(Tag As String, Optional TabID As String)
+    MyTag = Tag
+    If Rib Is Nothing Then
+        'MsgBox "Error, restart your workbook"
+    Else
+        Rib.Invalidate
+        If TabID <> "" Then Rib.ActivateTab TabID
+    End If
+End Sub
+
+Sub ReloadRibbon(Tag As String)
+    GroupTag = Tag
+    If Rib Is Nothing Then
+        'MsgBox "Error, Save/Restart your workbook"
+    Else
+        Rib.Invalidate
+    End If
+End Sub
+
+Sub GetterVisible(control As IRibbonControl, ByRef visible)
+    If GroupTag = "show" Then
+        visible = True
+    Else
+        If control.Tag Like GroupTag Then
+            visible = True
+        Else
+            visible = False
+        End If
+    End If
+End Sub
+
+
+
+
+Public Sub EditMyFuncDesc()
+    Application.MacroOptions _
+    Macro:="SummSocialType", _
+    Description:="Сумма согласно категории с разделением на платную и бесплатную по цвету платной.", _
+    ArgumentDescriptions:=Array("- диапазон суммирования", "- динамический или именованный диапазон категорий", "- текущий тип", "- цвет выборки платной слуги", "- 1 платно и 0 бесплатно")
+End Sub
+
+
+Function SummSocialType(DiapSumm As Range, diaptype As Range, SocialType As Range, PayCellColor, HowSumm As Boolean)
+    Dim theSumm As Long
+    theSumm = 0
+    Dim onelem As Range, thelem As Range
+    
+    Dim onclcolor
+    onclcolor = FillColor(PayCellColor)
+    Dim my As String
+    For Each onelem In DiapSumm.Columns
+        If SocialType.Value = GetSocialName(onelem, diaptype) Then
+            For Each thelem In onelem.Rows
+                If HowSumm = True Then
+                    If onclcolor = FillColor(thelem) Then
+                        theSumm = theSumm + thelem.Value
+                    End If
+                Else
+                    If onclcolor <> FillColor(thelem) Then
+                        theSumm = theSumm + thelem.Value
+                    End If
+                End If
+            Next thelem
+        End If
+    Next onelem
+    SummSocialType = theSumm
+End Function
+
+Public Sub UpdatePaymentsTable()
+    On Error GoTo Stroka
+        Dim paytabname As String, datatabname As String
+        Dim paytmpstr As String, datatmpstr As String
+        Dim paytypestr As String, datatypestr As String
+        paytmpstr = "Услуги"
+        datatmpstr = "Данные"
+        datatypestr = "ТипСчета"
+        paytabname = ActiveSheet.Name + paytmpstr
+        datatabname = ActiveSheet.Name + datatmpstr
+        paytypestr = ActiveSheet.Name + datatypestr
+        Dim payTable As ListObject, dataTable As ListObject, typePayTable As ListObject
+        Set payTable = ActiveSheet.ListObjects(paytabname)
+        Set dataTable = ActiveSheet.ListObjects(datatabname)
+        Set typePayTable = ActiveSheet.ListObjects(paytypestr)
+    
+        Dim payrw As Long
+        payrw = payTable.Range.Rows.Count - 1
+    
+        Dim SummPay As Long, SummNoPay As Long, onres As Long
+    
+        Dim dptype As Range
+        Dim dpName As String
+        dpName = "Услуга"
+        Set dptype = Range(dpName)
+    
+        Dim PCColor As Range
+        Set PCColor = Range("ВыборЦвета[Выбор цвета]")
+    
+    
+        Dim k As Long
+        If typePayTable.DataBodyRange(1, 1).Value = "Платно" Then
+            For k = 1 To payrw
+                SummPay = SummNoPay = 0
+                SummPay = SummSocialType(dataTable.DataBodyRange, dptype, payTable.DataBodyRange(k, 1), PCColor, 1)
+                SummNoPay = SummSocialType(dataTable.DataBodyRange, dptype, payTable.DataBodyRange(k, 1), PCColor, 0)
+                payTable.DataBodyRange(k, 3).Value = SummPay
+                payTable.DataBodyRange(k, 2).Value = SummNoPay
+            Next k
+        Else
+            For k = 1 To payrw
+                SummPay = SummNoPay = 0
+                SummPay = SummSocialType(dataTable.DataBodyRange, dptype, payTable.DataBodyRange(k, 1), PCColor, 0)
+                SummNoPay = SummSocialType(dataTable.DataBodyRange, dptype, payTable.DataBodyRange(k, 1), PCColor, 1)
+                payTable.DataBodyRange(k, 3).Value = SummPay
+                payTable.DataBodyRange(k, 2).Value = SummNoPay
+            Next k
+        End If
+    Exit Sub
+Stroka:
+    MsgBox "Произошла ошибка: " & Err.Description & " в строке " & k
+End Sub
+
+
+
+
+Sub HumanUpdate()
+    Application.ScreenUpdating = False
+    Dim onTable As String, lasttable As String, onTmpstr As String
+    onTmpstr = "Данные"
+    onTable = ActiveSheet.Name + onTmpstr
+    lasttable = Sheets(ActiveSheet.Index - 1).Name + onTmpstr
+    Dim lastlistObject As ListObject, onlistObject As ListObject
+    Set lastlistObject = Sheets(ActiveSheet.Index - 1).ListObjects(lasttable)
+    Set onlistObject = ActiveSheet.ListObjects(onTable)
+    
+    Dim lastSheet As String
+    lastSheet = Sheets(ActiveSheet.Index - 1).Name
+    
+    Dim lastRow As Long, lastCol As Long
+    Dim onRow As Long, onCol As Long
+    Dim j As Long, i As Long, k As Long
+    lastRow = lastlistObject.Range.Rows.Count - 1
+    lastCol = lastlistObject.Range.Columns.Count
+    onRow = onlistObject.Range.Rows.Count - 1
+    onCol = onlistObject.Range.Columns.Count
+    
+    'If lastRow <> onRow Then
+        Dim urFf As Range
+        Dim ulLastRow As Long
+        Set urFf = onlistObject.Range.Find(What:=onlistObject.DataBodyRange(1, 2).Value, LookIn:=xlValues, LookAt:=xlWhole, SearchDirection:=xlPrevious, MatchCase:=False, MatchByte:=False)
+        If Not urFf Is Nothing Then
+            ulLastRow = urFf.row
+            
+            If onRow > 1 Then
+                Cells.Range(Cells(ulLastRow + 1, 1), Cells(onRow + 11, onCol)).Delete Shift:=xlShiftUp
+            End If
+            
+            Dim urFff As Range
+            Dim ulLastRowf As Long
+            Set urFff = lastlistObject.Range.Find(What:=lastlistObject.DataBodyRange(1, 2).Value, LookIn:=xlValues, LookAt:=xlWhole, SearchDirection:=xlPrevious, MatchCase:=False, MatchByte:=False)
+            If Not urFff Is Nothing Then
+                ulLastRowf = urFff.row
+                
+                Worksheets(lastSheet).Cells.Range(Worksheets(lastSheet).Cells(ulLastRowf, 1), Worksheets(lastSheet).Cells(lastRow + 11, 3)).Copy Destination:=Cells(ulLastRow, 1)
+                Call AllZeroRows
+                
+            End If
+            
+        End If
+    'End If
+    
+    Application.ScreenUpdating = True
+End Sub
+
+
+
+
+
+
+
+
+
+
+
+Private Sub AddRowsClick(control As IRibbonControl)
+    Call AddRowsTable
+End Sub
+
+
+
+Sub AddRowsTable()
+    Dim tablename As String, tmpstr As String
+    tmpstr = "Данные"
+    tablename = ActiveSheet.Name + tmpstr
+    Dim listobj As ListObject
+    Set listobj = ActiveSheet.ListObjects(tablename)
+    listobj.ListRows.Add
+    Dim rw As Integer
+    rw = listobj.Range.Rows.Count - 1
+    'ListObj.DataBodyRange(rw, 1).Value = ListObj.DataBodyRange(rw - 1, 1).Value
+    listobj.DataBodyRange(rw, 3).Value = Sheets("СписокУчета").Cells(2, 1).Value
+    listobj.DataBodyRange(rw, 2).Select
+End Sub
+
+
+
+
+
+Sub NextList()
+    If ActiveSheet.Index <> ThisWorkbook.Sheets.Count Then
+       Sheets(ActiveSheet.Index + 1).visible = True
+       Sheets(ActiveSheet.Index + 1).Select
+    Else
+       Sheets("Главная").visible = True
+       Sheets("Главная").Select
+    End If
+End Sub
+
+Sub PrevList()
+    If ActiveSheet.Index <> Sheets("Главная").Index Then
+       Sheets(ActiveSheet.Index - 1).visible = True
+       Sheets(ActiveSheet.Index - 1).Select
+    Else
+       Sheets("Главная").visible = True
+       Sheets("Главная").Select
+    End If
+End Sub
+
+Sub HideList()
+    ActiveSheet.visible = False
+    'Sheets("Главная").visible = True
+    'Sheets("Главная").Select
+End Sub
+
+Sub UpList()
+    'Dim tabname As String, tmstr As String
+    'tmstr = "Данные"
+    'tabname = ActiveSheet.Name + tmstr
+    'Dim listobj As ListObject
+    'Set listobj = ActiveSheet.ListObjects(tabname)
+    'listobj.DataBodyRange(1, 2).Select
+    Cells(1, 3).Select
+End Sub
+
+Sub DownList()
+    Dim tabname As String, tmstr As String
+    tmstr = "Данные"
+    tabname = ActiveSheet.Name + tmstr
+    Dim listobj As ListObject
+    Set listobj = ActiveSheet.ListObjects(tabname)
+    Dim rww As Integer
+    rww = listobj.Range.Rows.Count
+    listobj.DataBodyRange(rww, 2).Select
+End Sub
+
+Function SheetExist(WbName As String, ShName As String) As Boolean
+Dim mySheet As Worksheet
+    For Each mySheet In Workbooks(WbName).Sheets
+        If mySheet.Name = ShName Then
+            SheetExist = True
+            Exit Function
+        End If
+    Next
+End Function
+
+Public Sub SelectList(listName As String)
+    If SheetExist(ThisWorkbook.Name, listName) Then
+        Sheets(listName).visible = True
+        Sheets(listName).Activate
+    End If
+End Sub
+
+
+
+
+Public Sub ChooseSizes()
+    Columns("A:DA").AutoFit
+    Rows("1:1000").AutoFit
+End Sub
+
+Private Sub BtnFitSizesClick(control As IRibbonControl)
+    Call ChooseSizes
+End Sub
+
+
+
+
+
+Sub AllZeroRows()
+    Dim tablename As String, tmpstr As String
+    tmpstr = "Данные"
+    tablename = ActiveSheet.Name + tmpstr
+    Dim listobj As ListObject
+    Set listobj = ActiveSheet.ListObjects(tablename)
+    Dim rw As Integer
+    Dim cl As Integer
+    Dim j As Long, i As Long, k As Long
+    rw = listobj.Range.Rows.Count - 1
+    cl = listobj.Range.Columns.Count
+    Application.ScreenUpdating = False
+
+    Dim rFff As Range
+    Dim lLastRowff As Long
+    Set rFff = listobj.Range.Find(What:=listobj.DataBodyRange(1, 2).Value, LookIn:=xlValues, LookAt:=xlWhole, SearchDirection:=xlPrevious, MatchCase:=False, MatchByte:=False)
+    If Not rFff Is Nothing Then
+        lLastRowff = rFff.row
+        Cells.Range(Cells(lLastRowff, 6), Cells(rw + 11, cl)).Clear
+        Cells.Range(Cells(lLastRowff, 6), Cells(rw + 11, cl)).Value = 0
+        Cells.Range(Cells(lLastRowff, 6), Cells(rw + 11, cl)).Interior.Color = -4142
+    End If
+    
+    Application.ScreenUpdating = True
+End Sub
+
+Sub SelectRowsZero()
+    Dim tablename As String, tmpstr As String
+    tmpstr = "Данные"
+    tablename = ActiveSheet.Name + tmpstr
+    Dim posx As Integer
+    posx = ActiveCell.row - 1
+    Dim listobj As ListObject
+    Set listobj = ActiveSheet.ListObjects(tablename)
+    Dim j As Long, i As Long, k As Long
+    
+    Application.ScreenUpdating = False
+    Dim rF As Range
+    Dim lLastRow As Long, lLastCol As Long
+    Set rF = listobj.Range.Find(What:=Cells(posx, 2).Value, LookIn:=xlValues, LookAt:=xlWhole, SearchDirection:=xlPrevious, MatchCase:=False, MatchByte:=False)
+    If Not rF Is Nothing Then
+        lLastRow = rF.row + 1
+        Dim cl As Long
+        cl = listobj.Range.Columns.Count
+        Cells.Range(Cells(lLastRow, 6), Cells(lLastRow, cl)).Clear
+        Cells.Range(Cells(lLastRow, 6), Cells(lLastRow, cl)).Value = 0
+        Cells.Range(Cells(lLastRow, 6), Cells(lLastRow, cl)).Interior.Color = -4142
+    End If
+    Application.ScreenUpdating = True
+End Sub
+
+Sub SelectColumnZero()
+    Dim tablename As String, tmpstr As String
+    tmpstr = "Данные"
+    tablename = ActiveSheet.Name + tmpstr
+    Dim posy As Integer
+    posy = ActiveCell.Column
+    Dim listobj As ListObject
+    Set listobj = ActiveSheet.ListObjects(tablename)
+    Dim rw As Long
+    Dim cl As Long
+    rw = listobj.Range.Rows.Count - 1
+    cl = listobj.Range.Columns.Count
+    Dim j As Long, i As Long
+    
+    Application.ScreenUpdating = False
+    If posy < cl + 1 And posy > 5 Then
+        Dim rFf As Range
+        Dim lLastRowf As Long
+        Set rFf = listobj.Range.Find(What:=listobj.DataBodyRange(1, 2).Value, LookIn:=xlValues, LookAt:=xlWhole, SearchDirection:=xlPrevious, MatchCase:=False, MatchByte:=False)
+        If Not rFf Is Nothing Then
+            lLastRowf = rFf.row
+            Cells.Range(Cells(lLastRowf, posy), Cells(rw + 11, posy)).Clear
+            Cells.Range(Cells(lLastRowf, posy), Cells(rw + 11, posy)).Value = 0
+            Cells.Range(Cells(lLastRowf, posy), Cells(rw + 11, posy)).Interior.Color = -4142
+        End If
+        
+    End If
+    Application.ScreenUpdating = True
+End Sub
+
+
+
+Public Sub DecorateCells(isClear As Boolean)
+    Dim NumOfRW As Long, NumOfCL As Long
+    NumOfRW = ActiveSheet.ListObjects(ActiveSheet.Name + "Данные").Range.Rows.Count + 11
+    NumOfCL = ActiveSheet.ListObjects(ActiveSheet.Name + "Данные").Range.Columns.Count
+    If Selection.row > 11 And Selection.row < NumOfRW Then
+        If Selection.Column < NumOfCL And Selection.Column > 5 Then
+            If isClear = True Then
+                Selection.Cells.Interior.ColorIndex = -4142
+            Else
+                 Selection.Cells.Interior.Color = Range("ВыборЦвета[Выбор цвета]").Interior.Color
+            End If
+        End If
+    End If
+End Sub
+
+Private Sub RubleClick(control As IRibbonControl)
+    Call DecorateCells(False)
+End Sub
+
+Private Sub NoRubleClick(control As IRibbonControl)
+    Call DecorateCells(True)
+End Sub
+
+
+
+
+
+
+
+
+
+
+
+
+
